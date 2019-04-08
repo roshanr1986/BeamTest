@@ -2,13 +2,20 @@
 PREREQUISITES FOR TEST  
 =======================
 1. Set up Java
+--------------
 If you do not have java installed in your client machine, Please make sure you install java (version above 1.6) first
 
 2. Set up Maven
+---------------
 If you do not have maven installed in your client machine, 
 Please install maven ( version 3 or above). More documentation on installing maven on windows can be found at https://docs.wso2.com/display/IS323/Installing+Apache+Maven+on+Windows
 
-3. Getting the source code
+3. Install Firefox browser.
+---------------------------
+
+
+4. Download the source code
+----------------------------
 Please follow the link https://github.com/roshanr1986/Beam_Amazon and you will find the repository of code. 
 If you are familier with git, then you may clone this repository into your local machine. 
 If you are not familiar with git, then you can also download the code by selecting "clone or download" option and then select "Download ZIP" option under that. You may then unzip the folder to a desider location in your local machine.

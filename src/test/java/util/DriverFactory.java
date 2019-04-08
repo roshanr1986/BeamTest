@@ -3,6 +3,7 @@ package util;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverFactory {
@@ -37,10 +38,7 @@ public class DriverFactory {
     public void initializeDriver() throws Exception {
     	try {
             System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
-            //drivers/geckodriver.exe
-			//FirefoxProfile prof = new FirefoxProfile(new File(propertyReader.readPropertyFile().get("url")));
     		driver = new FirefoxDriver();
-    		//driver.get(propertyReader.readPropertyFile().get("url"));
 			driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
 			
 		} catch (Exception e) {
