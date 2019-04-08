@@ -3,7 +3,7 @@ PREREQUISITES FOR TEST
 =======================
 1. Set up Java
 --------------
-If you do not have java installed in your client machine, Please make sure you install java (version above 1.6) first
+If you do not have java installed in your client machine, Please make sure you install java (version 1.8 or above) first
 
 2. Set up Maven
 ---------------
@@ -12,6 +12,7 @@ Please install maven ( version 3 or above). More documentation on installing mav
 
 3. Install Firefox browser.
 ---------------------------
+Please install or downgrade your firefox to version 45.0 (For system stability and support various dependancies). Link to download Firefox version 45.0 - https://ftp.mozilla.org/pub/firefox/releases/45.0/
 
 
 4. Download the source code
