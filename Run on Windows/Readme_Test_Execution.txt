@@ -4,9 +4,9 @@ You have the choice to run each test scenario individually or all at once.
 
 EXECUTING INDIVIDUAL SCENARIO
 =============================
-on windows, just double click on the "run_scenario<SCENARIO NUMBER>.bat" file and test will start executing. Once test if finished the command prompt will close itself.
+on windows, just double click on the "run_scenario_<SCENARIO NUMBER>.bat" file and test will start executing. Once test if finished the command prompt will close itself.
 
-Ex:- to run scenario 7, just double click on "run_scenario7.bat" file.
+Ex:- to run scenario 7, just double click on "run_scenario_7.bat" file.
 
 EXECUTING ALL SCENARIOS
 =======================
