@@ -36,7 +36,7 @@ public class DriverFactory {
     	try {
             System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
     		driver = new FirefoxDriver();
-			driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
