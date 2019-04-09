@@ -123,9 +123,4 @@ Feature: Amazon shopping cart functionality
     Then I select Nonfiction category
     Then I validate if "Girl, Stop Apologizing" title is ranked as "4"
 
-#  @Scenario2
-#  @all
-#  Scenario: Sample scenario 2
-#    Given setp1
-#    Then Step2
 

@@ -10,9 +10,6 @@ public class DriverFactory {
 	
     private WebDriver driver;
     private static DriverFactory myObj = null;
-    private String browser = "firefox";
-    private String version = "firefox";
-    private String URL = "";
 
     private DriverFactory() {
     	

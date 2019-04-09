@@ -13,8 +13,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
-	
-	public ProductPage productPage;
+
 	public WebDriver driver;
 	public Scenario _scenario;
 	public CommonElements comElement;
